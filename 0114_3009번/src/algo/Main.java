@@ -1,5 +1,4 @@
-package 네번째점;
-
+package algo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,9 +9,6 @@ import java.io.OutputStreamWriter;
 public class Main {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		
-		//22.01.14
-		//백준 3009번 네 번째 점 
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -50,7 +46,7 @@ public class Main {
 			yy = y[2];
 		}else if(y[0].equals(y[2])) {
 			yy = y[1];
-		}else {	//y[2]==y[3]
+		}else {	//x[2]==x[3]
 			yy = y[0];
 		}
 		
@@ -60,4 +56,3 @@ public class Main {
 	}
 	
 }
-
